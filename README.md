@@ -27,4 +27,4 @@
 
 1. استنسخ المشروع:
    ```bash
-   git clone https://github.com/username/wedding-halls-management.git
+git clone https://github.com/username/wedding-halls-management.git](https://github.com/azzam-Tech/Wedding-hall-booking.git
