@@ -1,0 +1,532 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\customer\\registeration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\customer\\registeration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\dtos\\customerdtos\\addcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\dtos\\customerdtos\\addcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\booking\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\booking\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\dtos\\bookingdtos\\updatebookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\dtos\\bookingdtos\\updatebookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\hall\\addhall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\hall\\addhall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\controllers\\hallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\controllers\\hallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amarn\\OneDrive\\Desktop\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011003_hall-primary-key-drop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\models\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\models\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\services\\hallservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\services\\hallservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\data\\bookinghallcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\data\\bookinghallcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\hall\\showdetailshall1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\hall\\showdetailshall1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\dtos\\halldtos\\addhalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\dtos\\halldtos\\addhalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\booking\\addbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\booking\\addbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\booking\\confirmbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\booking\\confirmbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\dtos\\bookingdtos\\getbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\dtos\\bookingdtos\\getbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\dtos\\customerdtos\\getcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\dtos\\customerdtos\\getcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|c:\\users\\amarn\\onedrive\\desktop\\code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\royalhall\\royalhall\\migrations\\20250507011945_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39AA70C-0936-4C17-876B-F34F24536C41}|RoyalHall\\RoyalHall.csproj|solutionrelative:royalhall\\migrations\\20250507011945_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "RoyalHall\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T11:53:52.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateBookingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\BookingDTOs\\UpdateBookingDTO.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\DTOs\\BookingDTOs\\UpdateBookingDTO.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\BookingDTOs\\UpdateBookingDTO.cs",
+              "RelativeToolTip": "RoyalHall\\DTOs\\BookingDTOs\\UpdateBookingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:04:54.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registeration.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Customer\\Registeration.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Customer\\Registeration.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Customer\\Registeration.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Customer\\Registeration.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswCoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T15:43:55.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\CustomerDTOs\\AddCustomerDTO.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\DTOs\\CustomerDTOs\\AddCustomerDTO.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\CustomerDTOs\\AddCustomerDTO.cs",
+              "RelativeToolTip": "RoyalHall\\DTOs\\CustomerDTOs\\AddCustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:48:48.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Program.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Program.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Program.cs",
+              "RelativeToolTip": "RoyalHall\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:27:10.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerServices.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\CustomerServices.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Services\\CustomerServices.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\CustomerServices.cs",
+              "RelativeToolTip": "RoyalHall\\Services\\CustomerServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:01:35.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\BookingDetails.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Booking\\BookingDetails.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\BookingDetails.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Booking\\BookingDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:08:51.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Booking\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\Edit.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Booking\\Edit.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T14:38:38.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Models\\Booking.cs",
+              "RelativeToolTip": "RoyalHall\\Models\\Booking.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:26:18.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RoyalHall\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:10:43.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingServices.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\BookingServices.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Services\\BookingServices.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\BookingServices.cs",
+              "RelativeToolTip": "RoyalHall\\Services\\BookingServices.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAD4vz4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:30:51.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "RoyalHall\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAUwG0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:57:18.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T11:56:33.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T11:56:18.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HallController.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\HallController.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Controllers\\HallController.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Controllers\\HallController.cs",
+              "RelativeToolTip": "RoyalHall\\Controllers\\HallController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:48:17.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddHall.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Hall\\AddHall.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Hall\\AddHall.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Hall\\AddHall.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Hall\\AddHall.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T00:42:32.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250507011945_init.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011945_init.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Migrations\\20250507011945_init.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011945_init.cs",
+              "RelativeToolTip": "RoyalHall\\Migrations\\20250507011945_init.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:19:45.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250507011003_hall-primary-key-drop.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011003_hall-primary-key-drop.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011003_hall-primary-key-drop.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011003_hall-primary-key-drop.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Migrations\\20250507011003_hall-primary-key-drop.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:10:03.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HallServices.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\HallServices.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Services\\HallServices.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\HallServices.cs",
+              "RelativeToolTip": "RoyalHall\\Services\\HallServices.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:30:06.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShowDetailsHall1.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Hall\\ShowDetailsHall1.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Hall\\ShowDetailsHall1.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Hall\\ShowDetailsHall1.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Hall\\ShowDetailsHall1.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:51:43.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookingHallContext.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Data\\BookingHallContext.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Data\\BookingHallContext.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Data\\BookingHallContext.cs",
+              "RelativeToolTip": "RoyalHall\\Data\\BookingHallContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:37:57.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Hall.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Models\\Hall.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Models\\Hall.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Models\\Hall.cs",
+              "RelativeToolTip": "RoyalHall\\Models\\Hall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:39:20.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddHallDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\HallDTOs\\AddHallDTO.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\DTOs\\HallDTOs\\AddHallDTO.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\HallDTOs\\AddHallDTO.cs",
+              "RelativeToolTip": "RoyalHall\\DTOs\\HallDTOs\\AddHallDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T00:32:15.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\ImageService.cs",
+              "RelativeToolTip": "RoyalHall\\Services\\ImageService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T00:25:02.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\IImageService.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Services\\IImageService.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Services\\IImageService.cs",
+              "RelativeToolTip": "RoyalHall\\Services\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T00:27:00.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddBooking.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\AddBooking.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Booking\\AddBooking.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\AddBooking.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Booking\\AddBooking.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T13:28:45.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Booking\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\Delete.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Booking\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T14:39:25.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConfirmBooking.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\ConfirmBooking.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Booking\\ConfirmBooking.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Booking\\ConfirmBooking.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Booking\\ConfirmBooking.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T12:08:31.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetBookingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\BookingDTOs\\GetBookingDTO.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\DTOs\\BookingDTOs\\GetBookingDTO.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\BookingDTOs\\GetBookingDTO.cs",
+              "RelativeToolTip": "RoyalHall\\DTOs\\BookingDTOs\\GetBookingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:31:30.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Customer\\Login.cshtml",
+              "RelativeDocumentMoniker": "RoyalHall\\Views\\Customer\\Login.cshtml",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Views\\Customer\\Login.cshtml",
+              "RelativeToolTip": "RoyalHall\\Views\\Customer\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T16:22:11.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetCustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\CustomerDTOs\\GetCustomerDTO.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\DTOs\\CustomerDTOs\\GetCustomerDTO.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\DTOs\\CustomerDTOs\\GetCustomerDTO.cs",
+              "RelativeToolTip": "RoyalHall\\DTOs\\CustomerDTOs\\GetCustomerDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:49:12.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "RoyalHall\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\amarn\\OneDrive\\Desktop\\Code\\asma_project\\\u0641\u0627\u064A\u0646\u0627\u0644 mvc\\RoyalHall\\RoyalHall\\Models\\Customer.cs",
+              "RelativeToolTip": "RoyalHall\\Models\\Customer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:39:26.053Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

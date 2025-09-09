@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Imges\IMG_8527.jpg" />
+    <Content Remove="wwwroot\Imges\IMG_8529.jpg" />
+    <Content Remove="wwwroot\Imges\IMG_8530.jpg" />
+    <Content Remove="wwwroot\Imges\IMG_8531.jpg" />
+    <Content Remove="wwwroot\Imges\IMG_8532.jpg" />
+    <Content Remove="wwwroot\Imges\IMG_9592.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9593.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9594.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9596.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9598.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9599.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9600.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9603.jpg" />
+    <Content Remove="wwwroot\Imges\IMG_9607.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9608.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9609.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9610.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9611.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9612.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9613.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9615.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9617.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9618.JPG" />
+    <Content Remove="wwwroot\Imges\IMG_9619.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Imges\IMG_8527.jpg" />
+    <None Include="wwwroot\Imges\IMG_8529.jpg" />
+    <None Include="wwwroot\Imges\IMG_8530.jpg" />
+    <None Include="wwwroot\Imges\IMG_8531.jpg" />
+    <None Include="wwwroot\Imges\IMG_8532.jpg" />
+    <None Include="wwwroot\Imges\IMG_9592.JPG" />
+    <None Include="wwwroot\Imges\IMG_9593.JPG" />
+    <None Include="wwwroot\Imges\IMG_9594.JPG" />
+    <None Include="wwwroot\Imges\IMG_9596.JPG" />
+    <None Include="wwwroot\Imges\IMG_9598.JPG" />
+    <None Include="wwwroot\Imges\IMG_9599.JPG" />
+    <None Include="wwwroot\Imges\IMG_9600.JPG" />
+    <None Include="wwwroot\Imges\IMG_9603.jpg" />
+    <None Include="wwwroot\Imges\IMG_9607.JPG" />
+    <None Include="wwwroot\Imges\IMG_9608.JPG" />
+    <None Include="wwwroot\Imges\IMG_9609.JPG" />
+    <None Include="wwwroot\Imges\IMG_9610.JPG" />
+    <None Include="wwwroot\Imges\IMG_9611.JPG" />
+    <None Include="wwwroot\Imges\IMG_9612.JPG" />
+    <None Include="wwwroot\Imges\IMG_9613.JPG" />
+    <None Include="wwwroot\Imges\IMG_9615.JPG" />
+    <None Include="wwwroot\Imges\IMG_9617.JPG" />
+    <None Include="wwwroot\Imges\IMG_9618.JPG" />
+    <None Include="wwwroot\Imges\IMG_9619.JPG" />
+  </ItemGroup>
+
+</Project>

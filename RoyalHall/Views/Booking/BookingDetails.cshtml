@@ -1,0 +1,60 @@
+﻿@model IEnumerable<RoyalHall.DTOs.BookingDTOs.GetBookingDTO>
+@{
+    ViewData["Title"] = "BookingDetails";
+    int x = Convert.ToInt32(ViewBag.IsAdmin);
+    bool isAdmin = x == 1;
+}
+<h2>Booking Details</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Person Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Hall Name</th>
+            <th>BookingType</th>
+            <th>Booking Date</th>
+            <th>Total Price</th>
+            <th>Address</th>
+            <th>IsApproved</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model)
+        {
+            var isConfirmed = Context.Session.GetInt32($"Confirmed_{booking.BookingId}") == 1;
+            <tr>
+                <td>@booking.PersonName</td>
+                <td>@booking.Email</td>
+                <td>@booking.PhoneNumber</td>
+                <td>@booking.HallName</td>
+                <td>@booking.BookingType</td>
+                <td>@booking.BookingDate.ToString("yyyy-MM-dd")</td>
+                <td>@booking.TotalPrice</td>
+                <td>@booking.Address</td>
+                <td style="background: #3857">@booking.IsApproved</td>
+                <td class="d-flex align-items-center">
+                    @if(isAdmin)
+                    {
+                        <a href="@Url.Action("Approve", "Booking", new { id = booking.BookingId })" class="btn" style="background-color: aqua; border-color: aqua; color: white; margin-right: 10px;">Approve</a>
+
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Edit", "Booking", new { id = booking.BookingId })" class="btn" style="background-color: #f0ad4e; border-color: #f0ad4e; color: white; margin-right: 10px;">Edit</a>
+                        <a href="@Url.Action("Delete", "Booking", new { id = booking.BookingId })" class="btn" style="background-color: #d9534f; border-color: #d9534f; color: white; margin-right: 10px;">Delete</a>
+                    }
+                                        
+
+                    
+                  
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+

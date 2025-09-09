@@ -1,0 +1,62 @@
+﻿@model RoyalHall.DTOs.HallDTOs.GetHallDTO
+
+@{
+    ViewData["Title"] = "ShowDetailsHall1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@Model.Name</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/c<a href=" c:\users\repair2025\source\repos\royalhall\royalhall\views\hall\showdetailshall1.cshtml"></a>
+</head>
+<body style="font-family: Arial; background-color: #fefefe;">
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- صور القاعة -->
+            <div class="col-md-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/Imges/IMG_9596.JPG" class="d-block w-100" alt="Hall Image 1" style="height: 600px; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Imges/IMG_9593.JPG" class="d-block w-100" alt="Hall Image 2" style="height: 600px; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Imges/IMG_9598.JPG" class="d-block w-100" alt="Hall Image 3" style="height: 600px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- تفاصيل القاعة -->
+            <div class="col-md-6">
+                <div class="p-4" style="background-color: #f9f9f9; border-radius: 10px; border: 1px solid #ddd;">
+                    <h2 class="text-center mb-4" style="color: #800000; font-weight: bold;">@Model.Name</h2>
+                    <p><strong>Description:</strong> <i>@Model.Description</i></p>
+                    <p><strong>Location:</strong> <i>@Model.Location</i></p>
+                    <p><strong>Capacity:</strong> <i>@Model.Capacity</i> </p>
+                    <p><strong>Price :</strong> <i>@Model.Price</i> </p>
+                    <div class="text-center mt-4">
+                        <a href="@Url.Action("AddBooking", "Booking", new { hallId = Model.HallId , hallName = Model.Name ,price = Model.Price})"
+                           class="btn px-4"
+                           style="background-color: #800000; color: white; border: none;">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

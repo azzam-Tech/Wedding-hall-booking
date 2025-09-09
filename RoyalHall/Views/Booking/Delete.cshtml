@@ -1,0 +1,31 @@
+﻿@model RoyalHall.DTOs.BookingDTOs.GetBookingDTO
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete Booking</h1>
+<div class="container mt-5" style="max-width: 700px; background-color: #fefefe; padding: 30px; border-radius: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h3 style="color: #800000; text-align: center; margin-bottom: 30px;">Confirm Delete Booking</h3>
+
+    <form asp-action="Delete" asp-controller="Booking" method="post">
+        <input asp-for="BookingId" type="hidden" value="@Model.BookingId" />
+
+        @* <div class="mb-2"><strong style="color: #800000;">Name:</strong> @Html.DisplayFor(m => m.PersonName)</div> *@
+        @* <div class="mb-2"><strong style="color: #800000;">Email:</strong> @Html.DisplayFor(m => m.Email)</div> *@
+        @* <div class="mb-2"><strong style="color: #800000;">Phone:</strong> @Html.DisplayFor(m => m.PhoneNumber)</div> *@
+        @* <div class="mb-2"><strong style="color: #800000;">Address:</strong> @Html.DisplayFor(m => m.Address)</div> *@
+        <div class="mb-2"><strong style="color: #800000;">Hall:</strong> @Html.DisplayFor(m => m.HallName)</div>
+        <div class="mb-2"><strong style="color: #800000;">Booking Type:</strong> @Html.DisplayFor(m => m.BookingType)</div>
+        <div class="mb-2"><strong style="color: #800000;">Date:</strong> @Html.DisplayFor(m => m.BookingDate)</div>
+        @* <div class="mb-2"><strong style="color: #800000;">Start Time:</strong> @Html.DisplayFor(m => m.StartTime)</div> *@
+        @* <div class="mb-2"><strong style="color: #800000;">End Time:</strong> @Html.DisplayFor(m => m.EndTime)</div> *@
+        <div class="mb-2"><strong style="color: #800000;">Total Price:</strong> @Html.DisplayFor(m => m.TotalPrice)</div>
+
+        <div class="text-center mt-4">
+            <input type="submit" value="Yes, Delete" class="btn btn-danger me-2" />
+            <input type="button" value="Cancel" class="btn btn-secondary" onclick="history.back()" />
+        </div>
+    </form>
+</div>
+

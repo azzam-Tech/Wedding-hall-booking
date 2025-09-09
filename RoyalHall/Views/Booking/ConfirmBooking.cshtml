@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "ConfirmBooking";
+}
+
+<h1>ConfirmBooking</h1>
+@model RoyalHall.Models.Booking
+
+@{
+    ViewData["Title"] = "Confirm Booking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5" style="max-width: 700px;">
+    <h2 class="text-center mb-4 text-primary">Confirm Your Booking</h2>
+
+    <div class="card p-4 shadow">
+        @* <p><strong>Name:</strong> @Model.PersonName</p> *@
+        @* <p><strong>Email:</strong> @Model.Email</p> *@
+        @* <p><strong>Phone:</strong> @Model.PhoneNumber</p> *@
+        @* <p><strong>Address:</strong> @Model.Address</p> *@
+        <p><strong>Hall:</strong> @Model.BookingType</p>
+        <p><strong>Date:</strong> @Model.BookingDate.ToString("yyyy-MM-dd")</p>
+        @* <p><strong>Time:</strong> @Model.StartTime.ToString("hh\\:mm") - @Model.EndTime.ToString("hh\\:mm")</p> *@
+        <p><strong>Total Price:</strong> @Model.TotalPrice YER</p>
+
+        <form asp-action="ConfirmBooking" method="post" class="d-flex justify-content-center mt-4 gap-3">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="id" value="@Model.BookingId" />
+
+            <button type="submit" class="btn btn-success px-4">
+                <i class="bi bi-check-circle"></i> Confirm Booking
+            </button>
+
+            <a asp-action="BookingDetails" class="btn btn-outline-secondary px-4">
+                <i class="bi bi-x-circle"></i> Cancel
+            </a>
+        </form>
+
+    </div>
+</div>
+

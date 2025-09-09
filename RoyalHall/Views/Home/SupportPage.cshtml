@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "SupportPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ====== MAIN CONTENT ====== -->
+<div class="container my-5">
+    <div class="support-form-container" style="background-color: #fefefe; padding: 30px; border: 2px solid #800000; border-radius: 20px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+        <h2 class="text-center mb-4" style="color: #800000; font-weight: bold;">Technical Support</h2>
+        <p class="text-center mb-5" style="font-size: 1.1rem; color: #555;">If you are experiencing issues with the site or have questions, feel free to contact us using the form below or through the provided contact info.</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form onsubmit="return showMessage();">
+                    <!-- Name Field -->
+                    <div class="mb-3">
+                        <label for="Name" class="form-label" style="font-weight: bold; color: #800000;">Your Name</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Enter your name" style="padding: 12px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                    </div>
+                    <!-- Email Field -->
+                    <div class="mb-3">
+                        <label for="Email" class="form-label" style="font-weight: bold; color: #800000;">Your Email</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Enter your email" style="padding: 12px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                    </div>
+                    <!-- Message Field -->
+                    <div class="mb-3">
+                        <label for="Message" class="form-label" style="font-weight: bold; color: #800000;">Message</label>
+                        <textarea class="form-control" id="Message" rows="4" placeholder="Describe your issue or question" style="padding: 12px; border-radius: 8px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-block" style="background-color: #800000; color: white; font-weight: bold; padding: 12px 20px; border-radius: 8px; width: 100%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s;">
+                        Send
+                    </button>
+                </form>
+                <!-- Success Message -->
+                <div id="successMessage" class="alert alert-success mt-3 text-center d-none" style="background-color: #d4edda; color: #155724; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                    Your message has been sent successfully!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showMessage() {
+        var name = document.getElementById("Name").value.trim();
+        var email = document.getElementById("Email").value.trim();
+        var message = document.getElementById("Message").value.trim();
+
+        if (name === "" || email === "" || message === "") {
+            alert("Please fill in all the fields before submitting.");
+            return false;
+        }
+
+        document.getElementById("successMessage").classList.remove("d-none");
+        setTimeout(function () {
+            document.getElementById("successMessage").classList.add("d-none");
+        }, 3000);
+        return false; // يمنع الإرسال الفعلي للنموذج
+    }
+</script>

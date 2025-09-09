@@ -1,0 +1,98 @@
+﻿@model RoyalHall.DTOs.BookingDTOs.AddBookingDTO
+@{
+    ViewData["Title"] = "AddBooking";
+    var halls = ViewBag.Halls as List<SelectListItem>;
+    string price = Convert.ToString(ViewBag.Price);
+    string price2 = Convert.ToString(ViewBag.Price * 2);
+    int id = Convert.ToInt32(ViewBag.HallId);
+}
+<!-- ========== FORM SECTION ========== -->
+<div class="container mt-5">
+    <div class="card shadow-lg" style="border: 2px solid #800000;">
+        <div class="card-header text-center" style="background-color: #f5f5dc; color: #800000;">
+            <h2>Create New Booking (@ViewBag.HallName)</h2>
+        </div>
+        <div class="card-body" style="background-color: #fffaf0;">
+            <form asp-action="AddBooking" method="post">
+                <div class="form-group">
+                    <label asp-for="HallId"></label>
+                    <input asp-for="HallId" type="hidden" id="HallId" name="HallId" value="@ViewBag.HallId" />
+                    <input type="text" class="form-control" value="@ViewBag.HallId" readonly />
+                </div>
+                @* <div class="form-group"> *@
+                @*     <label asp-for="PersonName"></label> *@
+                @*     <input asp-for="PersonName" class="form-control" /> *@
+                @* </div> *@
+                @* <div class="form-group"> *@
+                @*     <label asp-for="Email"></label> *@
+                @*     <input asp-for="Email" type="email" class="form-control" /> *@
+                @* </div> *@
+                @* <div class="form-group"> *@
+                @*     <label asp-for="PhoneNumber"></label> *@
+                @*     <input asp-for="PhoneNumber" class="form-control" /> *@
+                @* </div> *@
+                @* <div class="form-group"> *@
+                @*     <label asp-for="Address"></label> *@
+                @*     <input asp-for="Address" class="form-control" /> *@
+                @* </div> *@
+                <div class="form-group">
+                    <label for="BookingType">Select Type</label>
+                    <select id="BookingType" name="BookingType" class="form-control" onchange="updatePrice()">
+                        <option value="">-- Select Type --</option>
+                        <option value="Night">Night</option>
+                        <option value="Mornning">Mornning</option>
+                        <option value="All day long">All day long</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BookingDate"></label>
+                    <input asp-for="BookingDate" type="date" class="form-control" />
+                </div>
+                @* <div class="form-group"> *@
+                @*     <label asp-for="StartTime"></label> *@
+                @*     <input asp-for="StartTime" type="time" class="form-control" /> *@
+                @* </div> *@
+                @* <div class="form-group"> *@
+                @*     <label asp-for="EndTime"></label> *@
+                @*     <input asp-for="EndTime" type="time" class="form-control" /> *@
+                @* </div> *@
+                <div class="form-group">
+                    <label for="TotalPrice">Total Price</label>
+                    <input type="text" id="TotalPrice" name="TotalPrice" class="form-control" readonly />
+                </div>
+                
+
+
+                
+
+<div class="text-center">
+    <button type="submit" class="btn" style="background-color: #800000; color: white; font-weight: bold; width: auto;">Adding the Book</button>
+</div>
+
+
+
+            </form>
+            <script>
+                function updatePrice() {
+                    var hallName = document.getElementById("BookingType").value;
+                    var totalPrice = document.getElementById("TotalPrice");
+
+                    switch (hallName) {
+                        case "Night":
+                            totalPrice.value = @price;  // السعر لقاعة Red Royal
+                            break;
+                        case "Mornning":
+                            totalPrice.value = @price;  // السعر لقاعة White Royal
+                            break;
+                        case "All day long":
+                            totalPrice.value = @price2;  // السعر لقاعة Golden Royal
+                            break;
+                        default:
+                            totalPrice.value = "";  // إذا لم يتم اختيار قاعة
+                    }
+                }
+            </script>
+        </div>
+    </div>
+</div>
+
